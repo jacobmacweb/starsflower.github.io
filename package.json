@@ -1,0 +1,16 @@
+{
+  "name": "starsflower.github.io",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "repository": "https://github.com/starsflower/starsflower.github.io",
+  "author": "Avery <19372006+starsflower@users.noreply.github.com>",
+  "license": "AGPLv3",
+  "dependencies": {
+    "sass": "^1.39.0"
+  },
+  "scripts": {
+    "build": "sass sass:css",
+    "dev": "sass --watch sass:css"
+  }
+}
