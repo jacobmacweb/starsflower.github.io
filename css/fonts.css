@@ -1,0 +1,63 @@
+body {
+  font-family: "Spectral", serif;
+  color: #181818;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  text-transform: uppercase;
+}
+h1--small, h2--small, h3--small, h4--small, h5--small, h6--small, .h1--small, .h2--small, .h3--small, .h4--small, .h5--small, .h6--small {
+  text-transform: initial;
+}
+
+a {
+  color: initial;
+  transition: background-color 0.5s ease;
+  padding: 3px;
+  border-bottom: 2px solid lightblue;
+  text-decoration: none;
+  line-height: 2rem;
+}
+a:hover {
+  transition: background-color 0.5s ease;
+  background-color: lightblue;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:visited {
+  color: initial;
+}
+a[target=_blank]:after {
+  padding-left: 5px;
+  font-family: FontAwesome;
+  content: "\f08e";
+  font-size: 70%;
+}
+
+a.btn {
+  padding: 6px;
+  line-height: 3rem;
+  border: 2px solid #181818;
+}
+a.btn:hover, a.btn:focus {
+  transition: background-color 0.5s ease;
+  background-color: #181818;
+  color: whitesmoke;
+}
+
+.btn-row {
+  border: 2px solid #181818;
+}
+.btn-row .btn:first-child {
+  border-right: none;
+}
+.btn-row .btn {
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+.btn-row .btn:last-child {
+  border-right: none;
+}
+
+/*# sourceMappingURL=fonts.css.map */
